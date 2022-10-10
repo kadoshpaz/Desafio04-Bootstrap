@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/fuentes.css">
+    <link rel="stylesheet" href="/assets/css/estilos.css">
+
+
+    <title>Desafío Cuppon</title>
+    <meta name="author" content="Daniel Paz Villaseca">
+</head>
+<body>
+    <header class="container-fluid fixed-top bg-success">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark ps-5">
+                <a class="navbar-brand" href="#"><img src="/assets/img/logo-white.png" class="logo" alt="Logo de la página"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pe-5" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Ayuda</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container d-flex justify-content-center mb-5">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-4 ps-5 mt-5"> <!--Aquí se trabaja la responsividad con row-cols-sm, md, lg y xl-->
+            <div class="col justify-content-center">
+              <div class="card tarjeta">
+                    <img src="/assets/img/cupon-1.jpg" class="card-img-top" alt="Imagen de un dormitorio con una cama">
+                    <div class="card-body">
+                        <h5 class="card-title titulo">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                        <p class="card-text subtitulo">Plumones Manolino<br><span class="direccion"><i class="fa-solid fa-location-dot"></i> 9191 Avenida Vitacura, Chile</span></p>
+                        <hr>
+                        <div class="d-flex justify-content-end">
+                            <p class="card-text fuente-uno pe-3 pt-1">$45.990</p>
+                            <p class="card-text text-success fuente-dos">$22.990</p>
+                        </div>
+                    </div>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card tarjeta">
+                    <img src="/assets/img/cupon-2.jpg" class="card-img-top" alt="Imagen con un plato de comida vegetariana">
+                    <div class="card-body">
+                        <h5 class="card-title titulo">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                        <p class="card-text subtitulo">V for Vegan<br><span class="direccion"><i class="fa-solid fa-location-dot"></i> 777 Jesse Pinkman, Chile</span></p>
+                        <hr>
+                        <div class="d-flex justify-content-end">
+                            <p class="card-text fuente-uno pe-3 pt-1">$30.990</p>
+                            <p class="card-text text-success fuente-dos">$12.990</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card tarjeta">
+                    <img src="/assets/img/cupon-3.jpg" class="card-img-top" alt="Imagen con un silla de dentista">
+                    <div class="card-body">
+                        <h5 class="card-title titulo">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+                        <p class="card-text subtitulo">Clínica Dental Quijada<br><span class="direccion"><i class="fa-solid fa-location-dot"></i> 1342, Blanco Encalada, Chile</span></p>
+                        <hr>
+                        <div class="d-flex justify-content-end">
+                            <p class="card-text fuente-uno pe-3 pt-1">$300.000</p>
+                            <p class="card-text text-success fuente-dos">$25.990</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="col">
+                <div class="card tarjeta">
+                      <img src="/assets/img/cupon-4.jpg" class="card-img-top" alt="Imagen con un plato de comida, una colación">
+                      <div class="card-body">
+                          <h5 class="card-title titulo">Colación para 2 personas + postre (no incluye bebidas)</h5>
+                          <p class="card-text subtitulo">Suricata almacen<br><span class="direccion"><i class="fa-solid fa-location-dot"></i> 1071 Miguel Claro, Chile</span></p>
+                          <hr>
+                          <div class="d-flex justify-content-end">
+                              <p class="card-text fuente-uno pe-3 pt-1">$4.200</p>
+                              <p class="card-text text-success fuente-dos">$2.100</p>
+                          </div>
+                      </div>
+                </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card tarjeta">
+                      <img src="/assets/img/cupon-5.jpg" class="card-img-top" alt="Imagen de una feria de juegos">
+                      <div class="card-body">
+                          <h5 class="card-title titulo">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                          <p class="card-text subtitulo">Stukids Centro de Eventos<br><span class="direccion"><i class="fa-solid fa-location-dot"></i> 133 El tranque, Chile</span></p>
+                          <hr>
+                          <div class="d-flex justify-content-end">
+                              <p class="card-text fuente-uno pe-3 pt-1">$4.000</p>
+                              <p class="card-text text-success fuente-dos">$2.500</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col">
+                <div class="card tarjeta">
+                    <img src="/assets/img/cupon-6.jpg" class="card-img-top" alt="Imagen de un flamenco en el desierto">
+                    <div class="card-body">
+                        <h5 class="card-title titulo">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+                        <p class="card-text subtitulo">D-Latam Travel</p>
+                        <hr>
+                        <div class="d-flex justify-content-end">
+                            <p class="card-text fuente-uno pe-3 pt-1">$80.200</p>
+                            <p class="card-text text-success fuente-dos">$44.100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </section>
+
+    <section class="container-fluid bg-success pt-5 pb-4 text-light">
+        <div class="container px-5">
+            <form class="col-sm-12 col-md-12">
+                <div class="d-flex justify-content-center">
+                    <h5 class="mensaje">Recibe cupones en tu correo</h5>
+                </div>
+                <div class="mb-3 form-text">
+                <input type="text" class="form-control" id="inputNombre" aria-describedby="emailHelp" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Correo Electrónico">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-light boton">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="container-fluid py-5 d-flex justify-content-center bg-dark">
+        <div class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="bg-warning" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="bg-warning" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/assets/img/NewYork.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-light">
+                      <h5 class="font-weight-bold">New York City</h5>
+                      <p class="text-info">Un viaje para explorar 2 lugares de interés destacados de Nueva York</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/assets/img/Paris.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-light">
+                      <h5 class="font-weight-bold">París</h5>
+                      <p class="text-info">Reserva tu viaje soñado a la Ciudad Luz</p>
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/Londres.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-light">
+                      <h5 class="font-weight-bold">Londres</h5>
+                      <p class="text-info">Relájate en una de las ciudades con la mejor gastronomía fusión del Mundo</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-light py-5">
+        <div class="container">
+                <div class="col-sm-12 col-md-12 d-flex justify-content-center">
+                    <img src="/assets/img/logo-black.png" class="logo-footer" alt="Logo del sitio web en color negro">     
+                </div>
+                <div class="col-sm-12 col-md-12 d-flex justify-content-center">
+                    <p class="fuente-uno">©2022 Cuppon Latam.Todos los derechos reservados.</p>
+                </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/98a5821c42.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

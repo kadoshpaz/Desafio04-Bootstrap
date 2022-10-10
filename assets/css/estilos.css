@@ -1,0 +1,103 @@
+/*ALUMNO: Daniel Paz Villaseca*/
+
+*{
+    font-family: RobotoLight;/*Por defecto que la página tenga tipo de letra Roboto Light (300)*/
+}
+
+/*---------------------------------------------------*/
+/*HEADER*/
+/*Tamaño del logo CUPPON*/
+.logo {
+    width: 86px;
+    height: 25px;
+}
+
+/*Efecto Hover para el menú de navegación*/
+#navbarNavDropdown ul li a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*CARD*/
+/*Ancho de cada Card*/
+.tarjeta{
+    width: 340px;
+}
+
+/*Formato del Título de Cada Card*/
+.titulo{
+    color: #212529;
+    font-size: 20px;
+}
+
+/*Formato del Subtítulo de Cada Card*/
+.subtitulo{
+    color:#707070;
+    font-size: 16px;
+}
+
+.direccion{
+    color:#707070;
+    font-size: 13px;
+}
+
+/*Precio pequeño*/
+.fuente-uno {
+    font-size: 16px;
+    color:#707070;
+}
+
+/*Precio de color verde*/
+.fuente-dos {
+    font-size: 20px;
+    font-family: RobotoMedium;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*FORMULARIO*/
+/* Color del título del FORM */
+.mensaje{
+    font-family: RobotoMedium;
+    font-size: 21px;
+}
+
+/*Color del Texto Interno NOMBRE en el input*/
+#inputEmail::placeholder{
+    color: #707070;
+    font-size: 16px;
+}
+/*Color del Texto Interno CORREO ELECTRÓNICO en el input*/
+#inputNombre::placeholder{
+    color: #707070;
+    font-size: 16px;
+}
+
+/* Tamaño y color del botón de envío */
+.boton{
+    font-size: 16px;
+    font-family: RobotoMedium;
+}
+
+.carousel-inner img{
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+}
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    width: 60px;
+    height: 6px;
+    border: none;
+    border-radius: 24px;
+  }
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*FOOTER*/
+.logo-footer {
+    width: 82px;
+    height: 24px;
+}
